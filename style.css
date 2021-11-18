@@ -1,0 +1,265 @@
+body { margin:0;
+	display:flex;
+	flex-direction:column;
+text-align:center;}
+header{background-color:#ff9911;}
+.header_first {
+    width: 100%;
+    height: 130px;
+    padding: 0 0 0 0;
+    max-width: 300px;
+    margin: 0 auto 0 auto;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    background: url(logo.jpg);
+    float: left;
+}
+#name {
+    padding: 0 0 0 0;
+    float: left;
+}
+#name h1 {
+    height: 100%;
+    line-height: 60px;
+    margin-top: 20px;
+}
+.real_header {
+    font-family: 'Arial', sans-serif;
+    color: Red;
+    font-size: 250%;
+}
+	
+
+nav {letter-spacing:normal;
+    display:flex;
+    flex-direction:column;
+    margin: 0 auto;
+    text-align: center;
+	width:100%;
+}
+#navbar {letter-spacing:normal;
+  margin: 10px 10px 0 10px;       
+    display: flex;
+    flex-direction:column;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    padding:4px;
+}
+#navbar li { margin: 5px 0 0 0;letter-spacing:normal; }
+#border {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}  
+#zag {text-align:center;}
+ .test{
+width: 100%;
+text-align:  center;
+}
+.center{
+display: inline-block}
+li{
+text-align: left;
+}
+table {
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    border-spacing: 4px;
+    border: 5px;
+}
+	.gamePin{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr:nth-child(odd) {
+    background: red;
+    padding: 4px;
+}
+tr:nth-child(even) {
+    background: green;
+    padding: 4px;
+}
+#task {display:flex;
+	flex-direction:column;
+	text-align:center;}
+#task tablu{order:2;}
+#task forma{order:1;}
+footer {
+    margin-top: 50px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#calcur{text-align:center;
+	background-color:yellow;
+}
+
+#gallery{
+	color:white;
+}
+.slick-slider{
+	min-width: 0;
+}
+/* Оболочка */
+.slick-list {
+	overflow: hidden;
+}
+/* Лента */
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+}
+
+
+/* Каждый слайд */
+.slider {
+	position: relative;
+	padding: 0px 60px;
+}
+
+
+.slider .slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px;
+	z-index: 10;
+	font-size: 0;
+	width: 70px;
+	height: 40px;
+}
+.slider .slick-arrow.slick-prev{
+	left: 0;
+	background: url("cross-left.jpg") 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next{
+	right: 0;
+	background: url("cross-right.jpg") 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-disabled{
+	opacity: 0.2;
+}
+
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider .slick-dots li{
+	list-style: none;
+	margin: 0px 10px;
+}
+.slider .slick-dots button{
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+#mogila {
+	background-color:#343a40;
+	}
+.slider .slick-dots li.slick-active button{
+	background-color: transparent;
+	border: 1px solid #fff;
+}
+
+.slider__item {
+	padding: 0px 15px;
+}
+.slider__item img{
+	max-width: 100%;
+}
+footer{background-color:#ff9911;}
+.popup-overlay{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(32, 9, 29, 0.486);
+    z-index: 100;
+}
+.popWindow{
+    display: none;
+    margin: auto;
+    max-width: 720px;
+    padding-bottom: 20px;
+    top:50%;
+    left:50%;
+    box-shadow: 0 0 30px rgba(18, 17, 12, 0.5);
+}
+.popWindow h2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+}
+.close-btn{
+    float:right;
+    font-size: 40px;
+    line-height: 20px;
+    cursor: pointer;
+    color: rgb(34, 34, 34);
+    padding: 10px;
+}
+.thank-you-window{
+    margin: auto;
+    display: none;
+    padding: 5px;
+    height: 100px;
+    width: 320px;
+    box-shadow: 0 0 30px rgba(18, 17, 12, 0.5);
+    background-color: gainsboro;
+}
+.thanks{
+    font-size: 25px;
+}
+.popup-main-window{
+    width: 360px;
+}
+@media screen and (min-width: 1024px) 
+{
+	body
+	{
+	margin: 0;
+	text-align:center;
+	}
+   #navbar 
+	{
+  margin:10px 0 0 0;
+  padding: 4px;
+  list-style-type: none;
+	display:flex;
+    flex-direction:row;
+	   text-align: center;
+	}
+	#navbar li{display: inline;}
+    table
+	{
+        font-size: 20px;
+    	}
+	#task 	{
+		display:flex;
+		flex-direction:column;
+		}
+#task tablu{order:1;}
+#task forma{order:2;}
+}

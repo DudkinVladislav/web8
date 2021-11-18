@@ -220,6 +220,10 @@ footer{background-color:#ff9911;}
     color: rgb(34, 34, 34);
     padding: 10px;
 }
+.form-text{
+	text-align:center;
+	position:relative;
+}
 .thank-you-window{
     margin: auto;
     display: none;
